@@ -46,6 +46,10 @@ def check_mode():
         return 'TOR-SOCKS'
     elif f == '#1':
         return 'TOR Mode'
+    elif f == '#4':
+        return 'SOCKS'
+    elif f == '#5':
+        return 'SOCKS-AUTH'
     else:
         return 'Unknown Mode'
 
